@@ -1,19 +1,11 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
+h2 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+
+p {
+  margin-top: 1.5em;
+  font-weight: 350 !important;
 }
 
 .home-desc {
@@ -23,15 +15,18 @@
 
 .home-desc h4 {
   letter-spacing: 1px;
+  font-weight: 350;
+  line-height: 145%;
 }
 
 .home-content {
-  padding: 5px 5px;
+  padding: 10px 10px;
 }
 
 .home-content-photo {
   max-width: 150px;
-  padding: 15px 15px;
+  padding: 15px 10px;
+  margin: 15px 0;
 }
 
 .home-peetayer {
@@ -43,12 +38,11 @@
   padding: 15px 15px;
 }
 
-
 .home-service {
-  padding: 5px 5px;
+  padding: 10px 10px;
 }
 
 .home-service-photo {
-  max-width: 100px;
-  padding: 15px 15px;
+  max-width: 70px;
+  margin: 5px 0;
 }
