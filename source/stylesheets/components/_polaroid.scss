@@ -1,28 +1,37 @@
 .polaroid {
   display: flex;
   position: relative;
-  width: 200px;
-  height: 250px;
+  width: 230px;
+  height: 270px;
   overflow: hidden;
-  margin: 80px auto;
+  margin: 30px auto;
   transition: all 0.3s ease;
   -webkit-box-shadow: 2px 2px 18px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    2px 2px 18px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.22);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.22);
   text-align: center;
   transition: all 0.8s ease;
 }
 
 .polaroid-text {
   position: absolute;
-  bottom: 5px;
-  left: 5px;
+  bottom: 20px;
+  left: 6px;
   padding: 0;
+  font-size: 16px;
+}
+
+.polaroid-desc {
+  position: absolute;
+  bottom: -2px;
+  left: 6px;
+  padding: 0;
+  font-size: 15px;
 }
 
 .polaroid-img {
   width: 100%;
-  height: 80%;
+  height: 75%;
   padding: 10px 10px 0px 10px;
   background-size: cover !important;
   background-position: center;
