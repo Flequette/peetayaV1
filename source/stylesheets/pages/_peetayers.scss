@@ -7,7 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
+
 .banner-peetayers h1 {
   font-size: 50px;
   font-weight: bold;
@@ -15,41 +17,205 @@
 }
 
 .polaroid-lg {
+  background-color: #F9F9F9;
   display: flex;
   position: relative;
   width: 330px;
   height: 370px;
   overflow: hidden;
   margin: 30px auto;
-  transition: all 0.3s ease;
   -webkit-box-shadow: 2px 2px 18px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    2px 2px 18px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0 2px 3px rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.22);
   text-align: center;
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
+}
+
+.polaroid-lg:hover {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.polaroid-lg-img {
+  width: 100%;
+  height: 75%;
+  padding: 10px 10px 0px 10px;
+  background-size: cover !important;
+  background-position: center;
+  margin: 4% 4% 4%;
 }
 
 .polaroid-lg-text {
   position: absolute;
-  bottom: 60px;
-  left: 8px;
+  bottom: 20px;
+  left: 6px;
   padding: 0;
   font-size: 16px;
 }
 
 .polaroid-lg-desc {
   position: absolute;
-  bottom: 35px;
-  left: 8px;
+  bottom: -2px;
+  left: 6px;
   padding: 0;
   font-size: 15px;
 }
 
-.polaroid-lg-img {
-  width: 100%;
-  height: 70%;
-  padding: 10px 10px 0px 10px;
-  background-size: cover !important;
-  background-position: center;
-  margin: 4% 4% 4%;
+.franco {
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  transition: all 0.5s ease;
+}
+
+.franco:hover {
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+@media screen and (min-width: 600px) {
+  .polaroid-lg-franco-pin {
+    position: absolute;
+    top: 7px;
+    right: 27px;
+    padding: 0;
+    width: 13%;
+    transform: rotate(-3deg)
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .polaroid-lg-franco-pin {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    padding: 0;
+    width: 10%;
+    transform: rotate(-3deg)
+  }
+}
+
+.flo {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  transition: all 0.5s ease;
+}
+
+.flo:hover {
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+
+@media screen and (min-width: 600px) {
+  .polaroid-lg-flo-pin {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    padding: 0;
+    width: 13%;
+    transform: rotate(-79deg)
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .polaroid-lg-flo-pin {
+    position: absolute;
+    top: 6px;
+    left: 58px;
+    padding: 0;
+    width: 10%;
+    transform: rotate(-79deg)
+  }
+}
+
+.clem {
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  transition: all 0.5s ease;
+}
+
+.clem:hover {
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+
+@media screen and (min-width: 600px) {
+  .polaroid-lg-clem-pin {
+    position: absolute;
+    top: 10px;
+    right: 27px;
+    padding: 0;
+    width: 13%;
+    transform: rotate(-3deg)
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .polaroid-lg-clem-pin {
+    position: absolute;
+    top: 18px;
+    right: 55px;
+    padding: 0;
+    width: 10%;
+    transform: rotate(-3deg)
+  }
+}
+
+.quent {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: all 0.5s ease;
+}
+
+.quent:hover {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+@media screen and (min-width: 600px) {
+  .polaroid-lg-quent-pin {
+    position: absolute;
+    top: 5px;
+    left: 23px;
+    padding: 0;
+    width: 13%;
+    transform: rotate(-84deg)
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .polaroid-lg-quent-pin {
+    position: absolute;
+    top: 13px;
+    left: 50px;
+    padding: 0;
+    width: 10%;
+    transform: rotate(-84deg)
+  }
 }
