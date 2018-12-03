@@ -30,9 +30,14 @@ layout: layout
     </div>
   </div>
 
+<br>
+<br>
+
   <!-- How it works bloc -->
   <div class="row">
     <h2>How it works?</h2>
+    <br>
+    <br>
     <div class="col-xs-12 col-sm-6 col-md-4">
       <div class="home-content">
         <%= image_tag "flaticon/search-flight.png", class: "home-content-photo" %>
@@ -58,25 +63,32 @@ layout: layout
     </div>
   </div>
 
+<br>
+<br>
+
   <!-- Peetayers bloc -->
   <div class="row">
     <h2>Our Peetayers</h2>
+    <div class="row">
+      <%= partial "layouts/polaroid" %>
+    </div>
     <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
       <div class="peetayers-desc text-center">
         <h4>Ours Peetayers are locals or passionates about their city. Real experts of their city, our Peetayers are chosen with care. They will help you in your arrival or during your stay in your host city.</h4>
       </div>
-    </div>
-    <div class="row">
-      <%= partial "layouts/polaroid" %>
-    </div>
-    <div class="peetayers-more text-right">
-      <a href="/peetayers.html"><i class="fas fa-arrow-circle-right fa-3x"></i></a>
+      <div class="peetayers-more text-center">
+        <a href="/peetayers.html"><i class="fas fa-arrow-circle-right fa-4x"></i></a>
+      </div>
     </div>
   </div>
+
+<br>
+<br>
 
   <!-- Services bloc -->
   <div class="row">
     <h2>What kind of services can I ask?</h2>
+    <br>
     <div class="col-xs-12 col-sm-6 col-md-4">
       <div class="home-service">
         <%= image_tag "flaticon/location.png", class: "home-service-photo" %>
