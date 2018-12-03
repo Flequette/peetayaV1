@@ -23,3 +23,12 @@ $border-radius-large: 2px;
 $border-radius-small: 2px;
 
 // Override other variables below!
+
+h2 {
+    box-shadow: inset 0 -14px 0 rgba(247,200,121,0.85);
+    -webkit-box-shadow: inset 0 -14px 0 rgba(247,200,121,0.85);
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+    height: 38px;
+    display: inline-block;
+  }

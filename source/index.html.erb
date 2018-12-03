@@ -25,7 +25,7 @@ layout: layout
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
       <div class="home-desc text-center">
-        <h4>Peetaya is a social network that allows students to share an experience with a local or an enthusiast of his city during his stay abroad (internship, university exchange, roadtrip, placement year, etc.)</h4>
+        <p>Peetaya is a social network that allows students to share an experience with a local or an enthusiast of his city during his stay abroad (internship, university exchange, roadtrip, placement year, etc.)</p>
       </div>
     </div>
   </div>
@@ -36,32 +36,36 @@ layout: layout
   <!-- How it works bloc -->
   <div class="row">
     <h2>How it works?</h2>
-    <br>
-    <br>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="home-content">
-        <%= image_tag "flaticon/search-flight.png", class: "home-content-photo" %>
-        <h4>1. I SEND</h4>
-        <p>A request to Peetaya to be put in contact with a Peetayer for my arrival in my future city or during my trip</p>
-      </div>
-    </div>
+    <div class="row">
 
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="home-content">
-        <%= image_tag "flaticon/profil.png", class: "home-content-photo" %>
-        <h4>2. I RECEIVE</h4>
-        <p>One or more Peetayers profiles so that I can choose the one who suits me the most (ultra-personalized)</p>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="polaroid-home">
+          <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "send.jpg" %>');">
+          </div>
+          <h3 class="polaroid-home-text"><strong>1. I SEND<strong></h3>
+          <p class="polaroid-home-desc">A request to Peetaya to be put in contact with a Peetayer for my arrival in my future city or during my trip</p>
+        </div>
       </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <div class="home-content">
-        <%= image_tag "flaticon/website.png", class: "home-content-photo" %>
-        <h4>3. I BOOK</h4>
-        <p>My Peetayer by confirming the payment. Then I receive his personal details to contact him</p>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="polaroid-home">
+          <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "receive.jpg" %>');">
+          </div>
+          <h3 class="polaroid-home-text"><strong>2. I RECEIVE<strong></h3>
+          <p class="polaroid-home-desc">One or more Peetayers profiles so that I can choose the one who suits me the most (ultra-personalized)</p>
+        </div>
       </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="polaroid-home">
+          <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "booking.jpg" %>');">
+          </div>
+          <h3 class="polaroid-home-text"><strong>3. I BOOK<strong></h3>
+          <p class="polaroid-home-desc">My Peetayer by confirming the payment. Then I receive his personal details to contact him</p>
+        </div>
+      </div>
+
     </div>
-  </div>
 
   <br>
   <br>
@@ -74,7 +78,7 @@ layout: layout
     </div>
     <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
       <div class="peetayers-desc text-center">
-        <h4>Ours Peetayers are locals or passionates about their city. Real experts of their city, our Peetayers are chosen with care. They will help you in your arrival or during your stay in your host city.</h4>
+        <p>Ours Peetayers are locals or passionates about their city. Real experts of their city, our Peetayers are chosen with care. They will help you in your arrival or during your stay in your host city.</p>
       </div>
       <div class="peetayers-more text-center">
         <a href="/peetayers.html"><i class="fas fa-arrow-circle-right fa-4x"></i></a>
