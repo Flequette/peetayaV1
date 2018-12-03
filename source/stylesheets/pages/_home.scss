@@ -1,5 +1,5 @@
 h2 {
-  margin-top: 30px !important;
+  margin-top: 50px !important;
   margin-bottom: 30px !important;
   }
 
@@ -8,9 +8,13 @@ p {
   font-weight: 350 !important;
 }
 
+.banner {
+  margin-bottom: 50px;
+}
+
 .home-desc {
   padding: 0px 15px;
-  margin: 50px 15px;
+  margin: 30px 15px;
 }
 
 .home-desc h4 {
@@ -29,13 +33,30 @@ p {
   margin: 15px 0;
 }
 
-.home-peetayer {
-  padding: 5px 5px;
+.peetayers-desc {
+  padding: 0px 15px;
+  margin: 30px 15px;
 }
 
-.home-peetayer-photo {
-  max-width: 150px;
-  padding: 15px 15px;
+.peetayers-desc h4 {
+  letter-spacing: 1px;
+  font-weight: 350;
+  line-height: 145%;
+}
+
+.peetayers-more a {
+  font-size: 18px !important;
+  font-weight: 350;
+  color: #f7c879;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+.peetayers-more a:hover {
+  text-decoration: none;
+  color: #f7c879;
+  opacity: 0.85;
+  cursor: pointer;
 }
 
 .home-service {
