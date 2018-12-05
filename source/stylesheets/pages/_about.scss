@@ -11,14 +11,17 @@
 }
 
 .contact-social-link a {
-  color: #f7c879;
   text-decoration: none;
   padding: 10px 10px;
 }
 
 .contact-social-link a:hover {
   text-decoration: none;
-  color: #f7c879;
   opacity: 0.80;
   cursor: pointer;
+}
+
+.fas {
+  margin-right: 15px;
+  color: #f7c879;
 }
