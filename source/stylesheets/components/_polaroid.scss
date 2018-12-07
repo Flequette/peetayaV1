@@ -63,25 +63,36 @@
   transform: rotate(-5deg);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 640px) {
+  .polaroid-franco-pin {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    padding: 0;
+    width: 7%;
+    transform: rotate(-3deg);
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 992px) {
+  .polaroid-franco-pin {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    padding: 0;
+    width: 8%;
+    transform: rotate(-3deg);
+  }
+}
+
+@media screen and (min-width: 992px) {
   .polaroid-franco-pin {
     position: absolute;
     top: 7px;
     right: 27px;
     padding: 0;
-    width: 13%;
-    transform: rotate(-3deg)
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .polaroid-franco-pin {
-    position: absolute;
-    top: 10px;
-    right: 50px;
-    padding: 0;
-    width: 10%;
-    transform: rotate(-3deg)
+    width: 11%;
+    transform: rotate(-3deg);
   }
 }
 
@@ -102,25 +113,36 @@
   transform: rotate(1deg);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 640px) {
+  .polaroid-flo-pin {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    padding: 0;
+    width: 7%;
+    transform: rotate(-79deg);
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 992px) {
+  .polaroid-flo-pin {
+    position: absolute;
+    top: 8px;
+    left: 75px;
+    padding: 0;
+    width: 8%;
+    transform: rotate(-79deg);
+  }
+}
+
+@media screen and (min-width: 992px) {
   .polaroid-flo-pin {
     position: absolute;
     top: 0px;
     left: 30px;
     padding: 0;
-    width: 13%;
-    transform: rotate(-79deg)
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .polaroid-flo-pin {
-    position: absolute;
-    top: 6px;
-    left: 58px;
-    padding: 0;
-    width: 10%;
-    transform: rotate(-79deg)
+    width: 11%;
+    transform: rotate(-79deg);
   }
 }
 
@@ -141,25 +163,36 @@
   transform: rotate(-4deg);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 640px) {
+  .polaroid-clem-pin {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 0;
+    width: 7%;
+    transform: rotate(-3deg);
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 992px) {
+  .polaroid-clem-pin {
+    position: absolute;
+    top: 13px;
+    right: 70px;
+    padding: 0;
+    width: 8%;
+    transform: rotate(-3deg);
+  }
+}
+
+@media screen and (min-width: 992px) {
   .polaroid-clem-pin {
     position: absolute;
     top: 10px;
     right: 27px;
     padding: 0;
-    width: 13%;
-    transform: rotate(-3deg)
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .polaroid-clem-pin {
-    position: absolute;
-    top: 18px;
-    right: 55px;
-    padding: 0;
-    width: 10%;
-    transform: rotate(-3deg)
+    width: 11%;
+    transform: rotate(-3deg);
   }
 }
 
@@ -180,25 +213,37 @@
   transform: rotate(5deg);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 640px) {
+  .polaroid-quent-pin {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    padding: 0;
+    width: 7%;
+    transform: rotate(-84deg);
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 992px) {
+  .polaroid-quent-pin {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    padding: 0;
+    width: 8%;
+    transform: rotate(-84deg);
+  }
+}
+
+@media screen and (min-width: 992px) {
   .polaroid-quent-pin {
     position: absolute;
     top: 5px;
     left: 23px;
     padding: 0;
-    width: 13%;
-    transform: rotate(-84deg)
+    width: 11%;
+    transform: rotate(-84deg);
   }
 }
 
-@media screen and (max-width: 600px) {
-  .polaroid-quent-pin {
-    position: absolute;
-    top: 13px;
-    left: 50px;
-    padding: 0;
-    width: 10%;
-    transform: rotate(-84deg)
-  }
-}
 
