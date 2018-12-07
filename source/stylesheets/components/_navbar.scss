@@ -23,8 +23,18 @@
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
+.navbar-wagon-brand {
+  color: #f7c879;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-wagon-brand:hover {
+  color: #f7c879;
+  text-decoration: none;
 }
 
 
