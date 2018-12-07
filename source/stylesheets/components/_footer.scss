@@ -28,6 +28,18 @@
   color: #F6F6F6;
 }
 
+.footer-title a {
+  color: #F6F6F6;
+  text-decoration: none;
+}
+
+.footer-title a:hover {
+  text-decoration: none;
+  color: #f7c879;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 600px) {
  .footer p {
   margin-top: 15px;
