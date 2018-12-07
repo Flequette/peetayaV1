@@ -92,24 +92,24 @@
   transform: rotate(-5deg);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .polaroid-lg-franco-pin {
     position: absolute;
-    top: 7px;
-    right: 27px;
+    top: 15px;
+    right: 15px;
     padding: 0;
-    width: 13%;
+    width: 10%;
     transform: rotate(-3deg)
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .polaroid-lg-franco-pin {
     position: absolute;
-    top: 10px;
-    right: 50px;
+    top: 7px;
+    right: 38px;
     padding: 0;
-    width: 10%;
+    width: 11%;
     transform: rotate(-3deg)
   }
 }
@@ -131,24 +131,24 @@
   transform: rotate(0deg);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .polaroid-lg-flo-pin {
     position: absolute;
-    top: 0px;
-    left: 30px;
+    top: 10px;
+    left: 20px;
     padding: 0;
-    width: 13%;
+    width: 10%;
     transform: rotate(-79deg)
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .polaroid-lg-flo-pin {
     position: absolute;
-    top: 6px;
-    left: 58px;
+    top: 0px;
+    left: 45px;
     padding: 0;
-    width: 10%;
+    width: 11%;
     transform: rotate(-79deg)
   }
 }
@@ -170,24 +170,24 @@
   transform: rotate(-4deg);
 }
 
-@media screen and (min-width: 600px) {
-  .polaroid-lg-clem-pin {
-    position: absolute;
-    top: 10px;
-    right: 27px;
-    padding: 0;
-    width: 13%;
-    transform: rotate(-3deg)
-  }
-}
-
 @media screen and (max-width: 600px) {
   .polaroid-lg-clem-pin {
     position: absolute;
     top: 18px;
-    right: 55px;
+    right: 15px;
     padding: 0;
     width: 10%;
+    transform: rotate(-3deg)
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .polaroid-lg-clem-pin {
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    padding: 0;
+    width: 11%;
     transform: rotate(-3deg)
   }
 }
@@ -209,24 +209,24 @@
   transform: rotate(5deg);
 }
 
-@media screen and (min-width: 600px) {
-  .polaroid-lg-quent-pin {
-    position: absolute;
-    top: 5px;
-    left: 23px;
-    padding: 0;
-    width: 13%;
-    transform: rotate(-84deg)
-  }
-}
-
 @media screen and (max-width: 600px) {
   .polaroid-lg-quent-pin {
     position: absolute;
     top: 13px;
-    left: 50px;
+    left: 1px;
     padding: 0;
     width: 10%;
+    transform: rotate(-84deg)
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .polaroid-lg-quent-pin {
+    position: absolute;
+    top: 5px;
+    left: 37px;
+    padding: 0;
+    width: 11%;
     transform: rotate(-84deg)
   }
 }
