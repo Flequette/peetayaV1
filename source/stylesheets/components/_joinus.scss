@@ -29,7 +29,50 @@
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 640px) and (max-width: 992px) {
+      .joinus {
+    color: white;
+    text-align: center;
+    height: 80vh;
+    /* if you have a 70px navbar => height: calc(100vh - 70px); */
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+  }
+
+   .joinus-content {
+     margin: 10px 10px;
+  }
+
+  .joinus h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .joinus p {
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    margin-bottom: 30px;
+  }
+}
+
+.joinus-content a {
+  color: #f7c879;
+}
+
+.joinus-content a:hover {
+  color: #f7c879;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
     .joinus {
     color: white;
     text-align: center;
