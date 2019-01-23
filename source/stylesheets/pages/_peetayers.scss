@@ -1,20 +1,73 @@
-.banner-peetayers {
-  color: white;
-  text-align: center;
-  height: 70vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 15vh;
+@media screen and (max-width: 640px) {
+  .banner-peetayers {
+    color: white;
+    text-align: center;
+    height: 40vh;
+    /* if you have a 70px navbar => height: calc(100vh - 70px); */
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .banner-peetayers h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+  .peetayers-desc p {
+    font-size: 14px !important;
+  }
+  .typeform-share {
+  font-size:16px !important;
+  }
 }
 
-.banner-peetayers h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+@media screen and (min-width: 640px) and (max-width: 992px) {
+    .banner-peetayers {
+    color: white;
+    text-align: center;
+    height: 35vh;
+    /* if you have a 70px navbar => height: calc(100vh - 70px); */
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .banner-peetayers h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+  .peetayers-desc p {
+    font-size: 16px !important;
+  }
 }
+
+@media screen and (min-width: 992px) {
+    .banner-peetayers {
+    color: white;
+    text-align: center;
+    height: 70vh;
+    /* if you have a 70px navbar => height: calc(100vh - 70px); */
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  .banner-peetayers h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .peetayers-desc p {
+    font-size: 18px !important;
+  }
+}
+
 
 .polaroid-lg {
   background-color: #F9F9F9;

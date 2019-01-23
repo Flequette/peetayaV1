@@ -1,27 +1,76 @@
-.contact a {
-  color: #333333;
-  text-decoration: none;
+
+@media screen and (max-width: 640px) {
+  .contact a {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .contact a:hover {
+    text-decoration: none;
+    color: #f7c879;
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
+  .contact-social-link a {
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+
+  .contact-social-link a:hover {
+    text-decoration: none;
+    opacity: 0.80;
+    cursor: pointer;
+  }
+
 }
 
-.contact a:hover {
-  text-decoration: none;
-  color: #f7c879;
-  opacity: 0.85;
-  cursor: pointer;
+@media screen and (min-width: 640px) and (max-width: 992px) {
+  .contact a {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .contact a:hover {
+    text-decoration: none;
+    color: #f7c879;
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
+  .contact-social-link a {
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+
+  .contact-social-link a:hover {
+    text-decoration: none;
+    opacity: 0.80;
+    cursor: pointer;
+  }
 }
 
-.contact-social-link a {
-  text-decoration: none;
-  padding: 10px 10px;
-}
+@media screen and (min-width: 992px) {
+  .contact a {
+    color: #333333;
+    text-decoration: none;
+  }
 
-.contact-social-link a:hover {
-  text-decoration: none;
-  opacity: 0.80;
-  cursor: pointer;
-}
+  .contact a:hover {
+    text-decoration: none;
+    color: #f7c879;
+    opacity: 0.85;
+    cursor: pointer;
+  }
 
-.fas {
-  margin-right: 15px;
-  color: #f7c879;
+  .contact-social-link a {
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+
+  .contact-social-link a:hover {
+    text-decoration: none;
+    opacity: 0.80;
+    cursor: pointer;
+  }
 }
