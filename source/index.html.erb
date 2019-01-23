@@ -45,16 +45,14 @@ layout: layout
       </div>
     </div>
   </div>
-
-  <br>
-  <br>
+  <!-- End Description bloc -->
 
   <!-- How it works bloc -->
   <div class="row">
     <h2>How it works?</h2>
     <div class="row">
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-4">
         <div class="polaroid-home">
           <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "send.jpg" %>');">
           </div>
@@ -63,7 +61,7 @@ layout: layout
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-4">
         <div class="polaroid-home">
           <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "receive.jpg" %>');">
           </div>
@@ -72,7 +70,7 @@ layout: layout
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-4">
         <div class="polaroid-home">
           <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "booking.jpg" %>');">
           </div>
@@ -83,15 +81,11 @@ layout: layout
 
     </div>
   </div>
-
-  <br>
-  <br>
+  <!-- End How it works bloc -->
 
   <!-- Peetayers bloc -->
   <div class="row">
     <h2>Our Peetayers</h2>
-    <br>
-    <br>
 
     <div class="row">
       <%= partial "layouts/polaroid" %>
@@ -101,22 +95,17 @@ layout: layout
       <div class="peetayers-desc text-center">
         <p>Ours Peetayers are locals or city lovers. Real experts of their city, our Peetayers are chosen with care. They will help you to prepare your trip, in your arrival or during your stay in your host city.</p>
       </div>
-      <br>
       <div class="peetayers-more text-center">
         <a href="peetayers.html"><i class="fas fa-arrow-circle-right fa-4x"></i></a>
       </div>
     </div>
   </div>
-
-  <br>
-  <br>
+  <!-- End Peetayers bloc -->
 
   <!-- Services bloc -->
   <div class="class service">
     <div class="row">
       <h2>What kind of services can I ask for?</h2>
-      <br>
-      <br>
     </div>
     <div class="row">
       <div class="col-xs-6 col-sm-4 col-md-3">
@@ -178,11 +167,13 @@ layout: layout
 
     </div>
   </div>
+  <!-- End Services bloc -->
 
 </div>
+<!-- End Body bloc -->
 
-  <!-- Form bloc -->
-  <%= partial "layouts/joinus" %>
+<!-- Form bloc -->
+<%= partial "layouts/joinus" %>
 
 
 
