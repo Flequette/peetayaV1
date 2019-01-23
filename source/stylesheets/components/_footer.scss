@@ -1,91 +1,122 @@
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
   .footer {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 15px 10px;
     background-color: #191919;
-    min-height: 50vh;
+  }
+
+  .footer .container {
     text-align: left;
+    min-height: 50vh;
   }
-  .footer h5 {
+
+  .footer-title {
+    color: #F6F6F6;
+  }
+
+  .footer-title h5 {
+    color: #F6F6F6;
     font-size: 14px !important;
+    margin-top: 20px;
   }
+
+   .footer-title a{
+    font-size: 11px !important;
+    font-weight: 250;
+    opacity: 0.85;
+    letter-spacing: 0.5px;
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  .footer-title a:hover {
+    text-decoration: none;
+    color: #f7c879;
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
   .footer p {
     font-size: 11px !important;
+    font-weight: 200;
     opacity: 0.85 !important;
     color: #FFF;
     letter-spacing: 0.5px;
-  }
+ }
 
   .footer-links a {
     font-size: 11px !important;
+    font-weight: 250;
     opacity: 0.85;
-    color: #FFF;
     letter-spacing: 0.5px;
+    color: #FFF;
     text-decoration: none;
   }
 
   .footer-links a:hover {
     text-decoration: none;
     color: #f7c879;
-    opacity: 0.75;
+    opacity: 0.85;
     cursor: pointer;
   }
 
   .partner-brand img {
-    height: 30px;
+    height: 40px;
+  }
+
+  .fas {
+    color: #f7c879;
+    margin-right: 5px;
+  }
+
+  .fab {
+    margin-right: 5px;
   }
 }
 
-@media screen and (min-width: 640px) and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .footer {
     display: flex;
     align-items: center;
-    padding: 50px 50px;
+    padding: 50px;
     background-color: #191919;
   }
+
   .footer .container {
     text-align: left;
     min-height: 50vh;
   }
-}
 
-@media screen and (max-width: 992px) {
-  .footer {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #191919;
+  .footer-title {
+    color: #F6F6F6;
   }
-  .footer .container {
-    text-align: left;
-    min-height: 80vh;
+
+   .footer-title a{
+    font-size: 16px !important;
+    font-weight: 250;
+    opacity: 0.85;
+    letter-spacing: 1.5px;
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 10px;
   }
-}
 
-.footer-title {
-  color: #F6F6F6;
-}
+  .footer-title a:hover {
+    text-decoration: none;
+    color: #f7c879;
+    opacity: 0.85;
+    cursor: pointer;
+  }
 
-.footer-title a {
-  color: #F6F6F6;
-  text-decoration: none;
-}
-
-.footer-title a:hover {
-  text-decoration: none;
-  color: #f7c879;
-  opacity: 0.85;
-  cursor: pointer;
-}
-
- .footer p {
-  margin-top: 15px;
-  font-size: 12px !important;
-  font-weight: 200;
-  opacity: 0.85 !important;
-  color: #FFF;
-  letter-spacing: 1.5px;
+  .footer p {
+    margin-top: 15px;
+    font-size: 16px !important;
+    font-weight: 200;
+    opacity: 0.85 !important;
+    color: #FFF;
+    letter-spacing: 1.5px;
  }
 
   .footer-links {
@@ -93,21 +124,108 @@
   }
 
   .footer-links a {
-    font-size: 12px !important;
+    font-size: 16px !important;
     font-weight: 250;
+    opacity: 0.85;
     letter-spacing: 1.5px;
     color: #FFF;
     text-decoration: none;
     margin-bottom: 10px;
-    padding: 0 3px;
   }
 
   .footer-links a:hover {
     text-decoration: none;
     color: #f7c879;
+    opacity: 0.85;
     cursor: pointer;
   }
 
   .partner-brand img {
-    height: 50px;
+    height: 60px;
   }
+
+  .fas {
+    color: #f7c879;
+    margin-right: 10px;
+  }
+
+  .fab {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 992px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 30px 15px;
+    background-color: #191919;
+  }
+
+  .footer .container {
+    text-align: left;
+    min-height: 50vh;
+  }
+
+  .footer-title {
+    color: #F6F6F6;
+  }
+
+  .footer-title h5 {
+    color: #F6F6F6;
+    font-size: 15px !important;
+  }
+
+   .footer-title a{
+    font-size: 12px !important;
+    font-weight: 250;
+    opacity: 0.85;
+    letter-spacing: 1.5px;
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .footer-title a:hover {
+    text-decoration: none;
+    color: #f7c879;
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
+  .footer p {
+    font-size: 12px !important;
+    font-weight: 200;
+    opacity: 0.85 !important;
+    color: #FFF;
+    letter-spacing: 1px;
+ }
+
+  .footer-links a {
+    font-size: 12px !important;
+    font-weight: 250;
+    opacity: 0.85;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .footer-links a:hover {
+    text-decoration: none;
+    color: #f7c879;
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
+  .partner-brand img {
+    height: 40px;
+  }
+
+  .fas {
+    color: #f7c879;
+    margin-right: 5px;
+  }
+
+  .fab {
+    margin-right: 5px;
+  }
+}
