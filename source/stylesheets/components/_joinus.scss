@@ -2,7 +2,7 @@
   .joinus {
     color: white;
     text-align: center;
-    height: 50vh;
+    height: 55vh;
     /* if you have a 70px navbar => height: calc(100vh - 70px); */
     background-size: cover !important;
     display: flex;
@@ -19,6 +19,7 @@
     font-size: 26px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    margin: 15px !important;
   }
 
   .joinus p {
@@ -34,17 +35,17 @@
       .joinus {
     color: white;
     text-align: center;
-    height: 45vh;
+    height: 40vh;
     /* if you have a 70px navbar => height: calc(100vh - 70px); */
     background-size: cover !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 15px;
   }
 
    .joinus-content {
-     margin: 10px 10px;
+     margin: 10px;
   }
 
   .joinus h1 {
