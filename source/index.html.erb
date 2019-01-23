@@ -37,13 +37,14 @@ layout: layout
 
   <!-- Description bloc -->
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
       <div class="home-desc text-center">
         <p>Peetaya is a social network that allows students to share an experience with a local or city lover during his stay abroad (internship, university exchange, roadtrip, gap year, etc.)</p>
         <p>For now it will only be in Lille (France) but don't worry the rest of the the world will come soon.</p>
       </div>
     </div>
   </div>
+  <!-- End Description bloc -->
 
   <br>
   <br>
@@ -53,7 +54,7 @@ layout: layout
     <h2>How it works?</h2>
     <div class="row">
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-md-4">
         <div class="polaroid-home">
           <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "send.jpg" %>');">
           </div>
@@ -62,7 +63,7 @@ layout: layout
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-md-4">
         <div class="polaroid-home">
           <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "receive.jpg" %>');">
           </div>
@@ -71,7 +72,7 @@ layout: layout
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-md-4">
         <div class="polaroid-home">
           <div class="polaroid-home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "booking.jpg" %>');">
           </div>
@@ -82,6 +83,7 @@ layout: layout
 
     </div>
   </div>
+  <!-- End How it works bloc -->
 
   <br>
   <br>
@@ -89,8 +91,6 @@ layout: layout
   <!-- Peetayers bloc -->
   <div class="row">
     <h2>Our Peetayers</h2>
-    <br>
-    <br>
 
     <div class="row">
       <%= partial "layouts/polaroid" %>
@@ -106,6 +106,7 @@ layout: layout
       </div>
     </div>
   </div>
+  <!-- End Peetayers bloc -->
 
   <br>
   <br>
@@ -118,28 +119,28 @@ layout: layout
       <br>
     </div>
     <div class="row">
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/suitcase.png", class: "home-service-photo" %>
           <p>Prepare your trip</p>
         </div>
       </div>
 
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/location.png", class: "home-service-photo" %>
           <p>Housing services</p>
         </div>
       </div>
 
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/medical-history.png", class: "home-service-photo" %>
           <p>Help with admins</p>
         </div>
       </div>
 
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/chat.png", class: "home-service-photo" %>
           <p>Speak local</p>
@@ -147,28 +148,28 @@ layout: layout
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/cheers.png", class: "home-service-photo" %>
           <p>Local tips</p>
         </div>
       </div>
 
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/masks.png", class: "home-service-photo" %>
           <p>Cultural outings</p>
         </div>
       </div>
 
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/football.png", class: "home-service-photo" %>
           <p>Play sports</p>
         </div>
       </div>
 
-      <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="home-service">
           <%= image_tag "flaticon/welcome.png", class: "home-service-photo" %>
           <p>Be welcomed</p>
@@ -177,11 +178,12 @@ layout: layout
 
     </div>
   </div>
-
+  <!-- End Services bloc -->
 </div>
+<!-- End Body bloc -->
 
-  <!-- Form bloc -->
-  <%= partial "layouts/joinus" %>
+<!-- Form bloc -->
+<%= partial "layouts/joinus" %>
 
 
 
